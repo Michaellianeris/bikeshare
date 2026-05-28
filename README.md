@@ -1,4 +1,4 @@
-# 🚲 Explore US Bikeshare Data
+#  Explore US Bikeshare Data
 
 A Python command-line application that analyses bike-share usage data for three major US cities: **Chicago**, **New York City**, and **Washington DC**.
 
@@ -6,13 +6,13 @@ Built as part of the **Udacity Programming for Data Science with Python** nanode
 
 ---
 
-## 📊 Overview
+## Overview
 
 This interactive script lets you explore bike-share data from the first six months of 2017, provided by [Motivate](https://www.motivateco.com/). Filter by city, month, and day of the week to uncover usage patterns and statistics.
 
 ---
 
-## 🏙️ Cities Covered
+## Cities Covered
 
 | City | File |
 |------|------|
@@ -22,30 +22,30 @@ This interactive script lets you explore bike-share data from the first six mont
 
 ---
 
-## 📈 Statistics Computed
+## Statistics Computed
 
-### ⏰ Popular Times of Travel
+### Popular Times of Travel
 - Most common month
 - Most common day of the week
 - Most common start hour
 
-### 🚉 Popular Stations & Trips
+### Popular Stations & Trips
 - Most common start station
 - Most common end station
 - Most common start → end trip combination
 
-### ⏱️ Trip Duration
+### Trip Duration
 - Total travel time
 - Average travel time
 
-### 👤 User Info
+### User Info
 - Counts by user type (Subscriber / Customer)
 - Counts by gender *(Chicago & NYC only)*
 - Earliest, most recent, and most common birth year *(Chicago & NYC only)*
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### Prerequisites
 Make sure you have Python 3 and the required libraries installed:
@@ -86,7 +86,7 @@ Calculating The Most Frequent Times of Travel...
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 bikeshare/
@@ -95,12 +95,10 @@ bikeshare/
 ├── readme.txt            # Project references
 ├── README.md             # This file
 │
-├── chicago.csv           # Chicago data (not included)
-├── new_york_city.csv     # New York City data (not included)
-└── washington.csv        # Washington DC data (not included)
+├── chicago.csv           # Chicago data 
+├── new_york_city.csv     # New York City data 
+└── washington.csv        # Washington DC data 
 ```
-
-> ⚠️ The CSV data files are not included in this repository. They can be obtained from [Motivate](https://www.motivateco.com/) or through the Udacity course resources.
 
 ---
 
@@ -112,20 +110,8 @@ bikeshare/
 
 ---
 
-## 📚 References
-
-- [pandas Documentation](https://pandas.pydata.org/docs/)
-- [Python datetime module](https://docs.python.org/3/library/datetime.html)
-- [Udacity — Programming for Data Science with Python](https://www.udacity.com/)
-- Original data: [Divvy Bikes](https://www.divvybikes.com/system-data) · [Citi Bike NYC](https://www.citibikenyc.com/system-data) · [Capital Bikeshare](https://www.capitalbikeshare.com/system-data)
-
----
-
-## 👤 Author
+## Author
 
 **Michael Lianeris**  
 [GitHub](https://github.com/Michaellianeris)
 
----
-
-*Project completed as part of Udacity's Programming for Data Science with Python Nanodegree*
