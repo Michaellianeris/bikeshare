@@ -102,7 +102,7 @@ bikeshare/
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - [Python 3](https://www.python.org/)
 - [pandas](https://pandas.pydata.org/)
